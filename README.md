@@ -3,7 +3,7 @@ Virtual Energy Loss Management Assistant - an energy savings intelligence system
 
 VELMA is designed to take the human element out of the thermodynamics calculations and considerations and provide simple advice for energy savings.  Energy savings are about $100/yr for casual users, while I have achieved around $300/yr over the first year, which included some non-daily suggestions from VELMA including caulking, etc.  
 
-This is an older version of the software using some bits of open source code from RandomNerdTutorials.  Newer (beta) versions are quite a bit different and more complicated, but are available upon reasonable request.  They include Python, MySQL, MQTT, arduino/Java, C++, etc.
+This is an older version of the software using some bits of open source code from RandomNerdTutorials.  Newer (beta) versions are quite a bit different and more complicated, but are available upon reasonable request.  They include Python, MySQL, MQTT, arduino/Java/C++, etc.
 
 
 ## Functions/Features:
