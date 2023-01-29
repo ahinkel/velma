@@ -24,7 +24,7 @@ This early version is somewhat limited, but can still save around $100/yr for ca
 
 
 
-## Dependencies
+## Dependencies:
 
 
 Please see the includes in the code: VELMA_early.ino
