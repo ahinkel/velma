@@ -1,7 +1,9 @@
 # V.E.L.M.A.
 Virtual Energy Loss Management Assistant - an energy savings intelligence system notifying users when and how to save energy based on current weather, device readings, thermodynamics calculations, etc.  Written for the ESP-32.  
 
-This is an older version of the software using some bits of open source code from RandomNerdTutorials.  Newer versions are quite a bit different and are available upon request.
+VELMA is designed to take the human element out of the thermodynamics calculations and considerations and provide simple advice for energy savings.  Energy savings are about $100/yr for casual users, while I have achieved around $300/yr over the first year, which included some non-daily suggestions from VELMA including caulking, etc.  
+
+This is an older version of the software using some bits of open source code from RandomNerdTutorials.  Newer (beta) versions are quite a bit different and more complicated, but are available upon reasonable request.  They include Python, MySQL, MQTT, arduino/Java, C++, etc.
 
 
 ## Functions/Features:
@@ -16,7 +18,9 @@ This early version is somewhat limited, but can still save around $100/yr for ca
 - Notifies user to open blinds/curtains to radiate heat to save energy and lower carbon emissions during nights in warm months.
 - Notifies user when to open or close windows to heat/cool their house based on heat or cool mode.
 - Reminds user to take certain energy saving actions, including setting back thermostat at night.
-- Provides tips for energy savings more broadly.
+- Provides tips for energy savings more broadly. 
+- Includes nudge feature to encourage user to use environmentally friendly thermostat settings. 
+- Basic scoring system to gamify energy savings and carbon emission reductions. 
 
 
 
@@ -58,3 +62,18 @@ Please see the includes in the code: VELMA_early.ino
 - You may need to ignore the first couple temperature readings while calibrating. 
 - Offset may be different based on the particular chip you use. 
 - Offset may be different if ESP32 delays or sleeps during idle time.  Sleeping is the default as it is more energy efficient.
+
+
+
+### Possible issues:
+
+
+- This older version of the code may need an update to the solar gain estimation function.  Newer versions make use of a solar gain table from *The Passive Solar House* by James Kachadorian (Still testing this).
+- This older version of the code has an out of date computeNetPowerFlow() function.  Newer versions make use of estimated R-values for windows.  You may need to tweak this depending on your experience, location, etc.
+
+
+
+## Future:
+
+
+I am hoping to collaborate on a version of this software that could be integrated with thermostats and apply machine learning to solve other problems.  Please contact me if interested.
