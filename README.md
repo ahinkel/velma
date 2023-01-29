@@ -5,7 +5,7 @@ VELMA is designed to take the human element out of the thermodynamics calculatio
 
 This is an older version of the software using some bits of open source code from RandomNerdTutorials.  
 
-Newer (beta) versions are quite a bit different and more complicated, but are available upon reasonable request.  They include Python, MySQL, MQTT, arduino/Java/C++, etc.
+Newer (beta) versions are quite a bit different and more complicated, but are available upon reasonable request.  They include code using Python, AWS, MySQL, MQTT, arduino/Java/C++, etc.
 
 
 ## Functions/Features:
