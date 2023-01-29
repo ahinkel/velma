@@ -16,7 +16,7 @@ This early version is somewhat limited, but can still save around $100/yr for ca
 - Notifies user to close blinds/curtains to reduce losses and save energy and lower carbon emissions during nights in cold months.
 - Notifies user to close blinds/curtains to prevent solar gain to save energy and lower carbon emissions during sunny days in warm months.
 - Notifies user to open blinds/curtains to radiate heat to save energy and lower carbon emissions during nights in warm months.
-- Notifies user when to open or close windows to heat/cool their house based on heat or cool mode.
+- Notifies user when to open or close windows to heat/cool their house based on heat or cool mode. (Note: this version does not consider humidity, dangerously high winds, or precipitation.  Please use common sense.)
 - Reminds user to take certain energy saving actions, including setting back thermostat at night.
 - Provides tips for energy savings more broadly. 
 - Includes nudge feature to encourage user to use environmentally friendly thermostat settings. 
