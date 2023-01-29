@@ -3,7 +3,9 @@ Virtual Energy Loss Management Assistant - an energy savings intelligence system
 
 VELMA is designed to take the human element out of the thermodynamics calculations and considerations and provide simple advice for energy savings.  Energy savings are about $100/yr for casual users, while I have achieved around $300/yr over the first year, which included some non-daily suggestions from VELMA including caulking, etc.  
 
-This is an older version of the software using some bits of open source code from RandomNerdTutorials.  Newer (beta) versions are quite a bit different and more complicated, but are available upon reasonable request.  They include Python, MySQL, MQTT, arduino/Java/C++, etc.
+This is an older version of the software using some bits of open source code from RandomNerdTutorials.  
+
+Newer (beta) versions are quite a bit different and more complicated, but are available upon reasonable request.  They include Python, MySQL, MQTT, arduino/Java/C++, etc.
 
 
 ## Functions/Features:
@@ -35,7 +37,7 @@ This early version is somewhat limited, but can still save around $100/yr for ca
 ## How to Use:
 
 
-1. Obtain ESP32 microcontroller or adapt code for another chip. You will also need a 5V power adapter to power your VELMA.
+1. Obtain ESP32 microcontroller, a DHT-22 temperature sensor, some wires, and a resistor.  You will also need a 5V power adapter to power your VELMA.  (alternatively, you can change the code to work on other microcontrollers.)
 2. Create a new email that can send you alerts.  Using your own email is not recommended.
 3. Fill in preferences, API keys (you may need to sign up for open weather -- its free), and SSID/WiFi info. (Search for "//change for each user")
 4. Ensure configureNewUser() function has 0 in line: EEPROM.write(NEW_USER, 0);
