@@ -27,14 +27,15 @@ This early version is somewhat limited, but can still save around $100/yr for ca
 ## Dependencies:
 
 
-Please see the includes in the code: VELMA_early.ino
+- Please see the includes in the code: VELMA_early.ino
+- WiFi and an internet connection are required.
 
 
 
 ## How to Use:
 
 
-1. Obtain ESP32 microcontroller or adapt code for another chip.
+1. Obtain ESP32 microcontroller or adapt code for another chip. You will also need a 5V power adapter to power your VELMA.
 2. Create a new email that can send you alerts.  Using your own email is not recommended.
 3. Fill in preferences, API keys (you may need to sign up for open weather -- its free), and SSID/WiFi info. (Search for "//change for each user")
 4. Ensure configureNewUser() function has 0 in line: EEPROM.write(NEW_USER, 0);
