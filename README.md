@@ -39,7 +39,7 @@ This early version is somewhat limited, but can still save around $100/yr for ca
 
 1. Obtain ESP32 microcontroller, a DHT-22 temperature sensor, some wires, and a resistor.  You will also need a 5V power adapter to power your VELMA.  (alternatively, you can change the code to work on other microcontrollers.)
 2. Create a new email that can send you alerts.  Using your own email is not recommended.
-3. Fill in preferences, API keys (you may need to sign up for open weather -- its free), and SSID/WiFi info. (Search for "//change for each user")
+3. Fill in preferences, API keys (you may need to sign up for open weather -- it's free), and SSID/WiFi info. (Search for "//change for each user")
 4. Ensure configureNewUser() function has 0 in line: EEPROM.write(NEW_USER, 0);
 5. Save, compile, and upload code to your ESP-32
 6. (optional) 3D print a case for the chip.
