@@ -73,6 +73,7 @@ This early version is somewhat limited, but can still save around $100/yr for ca
 
 - This older version of the code may need an update to the solar gain estimation function.  Newer versions make use of a solar gain table from *The Passive Solar House* by James Kachadorian (Still testing this).
 - This older version of the code has an out of date computeNetPowerFlow() function.  Newer versions make use of estimated R-values for windows.  You may need to tweak this depending on your experience, location, etc.
+- The code doesn't really have flexibility for those on the night shift.  
 
 
 
