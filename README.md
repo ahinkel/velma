@@ -80,4 +80,4 @@ This early version is somewhat limited, but can still save around $100/yr for ca
 ## Future:
 
 
-I am hoping to collaborate on a version of this software that could be integrated with thermostats and apply machine learning to solve other problems.  Please contact me if interested.
+I am hoping to collaborate on a version of this software that could be integrated with thermostats and apply machine learning to solve other problems.  Please contact me if interested!
